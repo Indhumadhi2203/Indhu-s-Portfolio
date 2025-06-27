@@ -1,0 +1,115 @@
+/* General body styling */
+body {
+    margin: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/* Styling each section with border and spacing */
+section {
+    border: 2px solid white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* slightly translucent section bg */
+}
+
+/* Header styling */
+header {
+    margin-top: 40px;
+}
+
+/* Centered title */
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: mediumslateblue;
+}
+
+/* Center image */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+/* Paragraph inside section */
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+/* Contact links */
+a {
+    color: lightyellow;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: white;
+    color: mediumslateblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: lightgray;
+}
