@@ -216,3 +216,27 @@ body {
 .social-icons a:hover {
   color: #f08a5d;
 }
+.research-content {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.research-img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.research-text {
+  flex: 1;
+  max-width: 500px;
+}
+
+.research-card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
